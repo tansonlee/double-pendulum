@@ -20,7 +20,7 @@ class Pendulum {
 		line(x1, y1, x2, y2);
 
 		fill(0)
-		ellipse(x2, y2, this.m, this.m);
+		ellipse(x2, y2, this.m * 5, this.m * 5);
 	}
 
 	update() {
